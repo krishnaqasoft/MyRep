@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite A]">
+  <test name="Test A1">
+    <classes>
+      <class name="com.selenium.framework.suiteA.TestA1"/>
+    </classes>
+  </test> <!-- Test A1 -->
+  <test name="Test A2">
+    <classes>
+      <class name="com.selenium.framework.suiteA.TestA2"/>
+    </classes>
+  </test> <!-- Test A2 -->
+  <test name="Test A3">
+    <classes>
+      <class name="com.selenium.framework.suiteA.TestA3"/>
+    </classes>
+  </test> <!-- Test A3 -->
+</suite> <!-- Failed suite [Suite A] -->

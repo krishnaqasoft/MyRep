@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite B]">
+  <test name="Test B1">
+    <classes>
+      <class name="com.selenium.framework.suiteB.TestB1"/>
+    </classes>
+  </test> <!-- Test B1 -->
+  <test name="Test B2">
+    <classes>
+      <class name="com.selenium.framework.suiteB.TestB2"/>
+    </classes>
+  </test> <!-- Test B2 -->
+  <test name="Test B3">
+    <classes>
+      <class name="com.selenium.framework.suiteB.TestB3"/>
+    </classes>
+  </test> <!-- Test B3 -->
+  <test name="Test B1(failed)">
+    <classes>
+      <class name="com.selenium.framework.suiteB.TestB1">
+        <methods>
+          <include name="testB1" invocation-numbers="2 1"/>
+        </methods>
+      </class> <!-- com.selenium.framework.suiteB.TestB1 -->
+    </classes>
+  </test> <!-- Test B1(failed) -->
+</suite> <!-- Failed suite [Suite B] -->
